@@ -13,3 +13,5 @@ if __name__ == "__main__":
     print(get_numbers_ticket(1, 5, 23))
     print(get_numbers_ticket(100, 5, 5))
     print(get_numbers_ticket(10, 15, 10))
+    lottery_numbers = get_numbers_ticket(1, 49, 6)
+    print("Ваші лотерейні числа:", lottery_numbers)
